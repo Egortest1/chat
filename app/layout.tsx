@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import './modern.css';
 
 export const metadata: Metadata = {
-  title: 'Салон — мессенджер нового поколения',
-  description: 'Личные сообщения, профиль и ваш собственный стиль общения.',
+  title: 'Chat by Barsik',
+  description: 'Современный мессенджер для общения со своими людьми.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
